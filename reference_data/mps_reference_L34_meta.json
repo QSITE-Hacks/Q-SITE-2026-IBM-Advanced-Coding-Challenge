@@ -1,0 +1,26 @@
+{
+ "t2_bd64": {
+  "seconds": 13.3
+ },
+ "t4_bd64": {
+  "seconds": 57.3
+ },
+ "t6_bd64": {
+  "seconds": 77.8
+ },
+ "t8_bd64": {
+  "seconds": 109.8
+ },
+ "t2_bd128": {
+  "seconds": 23.5
+ },
+ "t4_bd128": {
+  "seconds": 326.6
+ },
+ "t6_bd128": {
+  "seconds": 488.6
+ },
+ "t8_bd128": {
+  "seconds": 606.1
+ }
+}

@@ -1,0 +1,11 @@
+# UofT Qiskit Fall Fest — Schwinger hadron challenge (tested with Python 3.11-3.13)
+qiskit[visualization]~=2.5.2
+qiskit-ibm-runtime~=0.49.0
+qiskit-aer~=0.17.2
+numpy>=2.0
+scipy>=1.13
+matplotlib>=3.8
+seaborn>=0.13
+pandas>=2.2
+jupyter
+ipykernel
