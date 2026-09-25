@@ -1,0 +1,54 @@
+{
+ "main": {
+  "_VERSION": 2,
+  "max_execution_time": 180,
+  "environment": {
+   "log_level": "WARNING",
+   "private": false
+  },
+  "default_shots": 16384,
+  "resilience_level": 0,
+  "dynamical_decoupling": {
+   "enable": true,
+   "sequence_type": "XpXm"
+  },
+  "resilience": {
+   "measure_mitigation": false,
+   "zne_mitigation": false,
+   "pec_mitigation": false
+  },
+  "twirling": {
+   "enable_gates": true,
+   "enable_measure": true,
+   "num_randomizations": 64,
+   "shots_per_randomization": 256,
+   "strategy": "active-accum"
+  }
+ },
+ "improvement_trex": {
+  "_VERSION": 2,
+  "max_execution_time": 180,
+  "environment": {
+   "log_level": "WARNING",
+   "private": false
+  },
+  "default_shots": 8192,
+  "resilience_level": 0,
+  "dynamical_decoupling": {
+   "enable": true,
+   "sequence_type": "XpXm"
+  },
+  "resilience": {
+   "measure_mitigation": true,
+   "zne_mitigation": false,
+   "pec_mitigation": false
+  },
+  "twirling": {
+   "enable_gates": true,
+   "enable_measure": true,
+   "num_randomizations": 32,
+   "shots_per_randomization": 256,
+   "strategy": "active-accum"
+  }
+ }
+}
